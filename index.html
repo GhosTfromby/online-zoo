@@ -1,0 +1,510 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./pages/landing/style.css">
+  <title>ZOO online</title>
+</head>
+
+<body>
+  <header class="header">
+    <h1 class="visually-hidden">Online Zoo</h1>
+    <div class="container">
+      <div class="header-wrapper">
+        <div class="logo">
+          <a href="#"><img src="./assets/icons/logo.svg" alt="ZOO online" class="logo-img"></a>
+        </div>
+        <nav>
+          <ul class="nav">
+            <li><a href="#" class="nav__item active">About</a></li>
+            <li><a href="./pages/zoos/panda/panda.html" class="nav__item">Zoos</a></li>
+            <li><a href="./pages/map/map.html" class="nav__item">Map</a></li>
+            <li><a href="#contact-us" class="nav__item">Contact Us</a></li>
+            <li><a href="https://www.figma.com/file/HKt5Nlx0jghQtJp6jW9q8F/zooApp" class="nav__item"
+                target="_blank">Design</a></li>
+          </ul>
+        </nav>
+        <label class="switch">
+          <input type="checkbox" class="switch__checkbox">
+          <span class="switch__toggle"></span>
+        </label>
+      </div>
+
+    </div>
+  </header>
+
+  <main>
+
+    <section class="watch-online">
+      <div class="container">
+        <div class="watch-online__content">
+          <h2 class="watch-online__title">Watch your favorite animal online</h2>
+          <div class="button-wrapper watch-online__button">
+            <button class="button"><img src="./assets/icons/play.svg" alt="play" class="button__img">Watch
+              online</button>
+          </div>
+        </div>
+
+        <div class="animal-slider slider">
+          <div class="slider__container">
+            <div class="slider__item">
+              <img src="./assets/images/eagle.jpg" alt="Eagle" class="slider__img">
+              <div class="slider__text">
+                <p>Eagle’s name is Grif. He is 5 years old. Eagle is from USA. He loves meat.</p>
+                <div class="slider__buttons">
+                  <a href="./pages/zoos/panda/eagle.html" class="button-light watch"><img src=" ./assets/icons/watchGreen.svg"
+                      alt="play" class="button-light__img">Watch online</a>
+                  <button class="button-light donate"><img src=" ./assets/icons/donate.svg" alt="play"
+                      class="button-light__img">Donate</button>
+                </div>
+              </div>
+            </div>
+
+            <div class="slider__item slider__item_active">
+              <img src="./assets/images/panda.jpg" alt="Panda" class="slider__img">
+              <div class="slider__text animal-slider__active">
+                <p>Panda’s name is Bei Bei. He
+                  is 2 years old. Bei Bei is from China. He loves bamboos.</p>
+                <div class="slider__buttons">
+                  <a href="./pages/zoos/panda/panda.html" class="button-light watch"><img src=" ./assets/icons/watchGreen.svg" alt="play"
+                      class="button-light__img">Watch online</a>
+                  <button class="button-light donate"><img src=" ./assets/icons/donate.svg" alt="play"
+                      class="button-light__img">Donate</button>
+                  </div>
+                  </div>
+                  </div>
+                  <div class="slider__item">
+                    <img src="./assets/images/gorilla.jpg" alt="" class="slider__img">
+                    <div class="slider__text">
+                      <p>Gorilla’s name is Maugli. He is 8 years old. Maugli is from Africa. He loves bananas.</p>
+                      <div class="slider__buttons">
+                        <a href="./pages/zoos/gorilla/gorilla.html" class="button-light watch"><img src=" ./assets/icons/watchGreen.svg"
+                            alt="play" class="button-light__img">Watch online</a>
+                        <button class="button-light donate"><img src=" ./assets/icons/donate.svg" alt="play"
+                            class="button-light__img">Donate</button>
+                      </div>
+                    </div>
+                  </div>
+                  
+                  <div class="slider__item">
+                    <img src="./assets/images/crocodile.jpg" alt="" class="slider__img">
+                    <div class="slider__text">
+                      <p>Alligator’s name is Gena. He is 10 years old. Gena is from USA. He loves fish.</p>
+                      <div class="slider__buttons">
+                        <a href="./pages/zoos/alligator/alligator.html" class="button-light watch"><img
+                            src=" ./assets/icons/watchGreen.svg" alt="play" class="button-light__img">Watch online</a>
+                        <button class="button-light donate"><img src=" ./assets/icons/donate.svg" alt="play"
+                            class="button-light__img">Donate</button>
+                      </div>
+                    </div>
+                  </div>
+                  
+                  <div class="slider__item">
+                    <img src="./assets/images/fox.jpg" alt="" class="slider__img">
+                    <div class="slider__text">
+                      <p>Fox’s name is Alisa. He is 2 years old. Alisa is from Belarus. He loves meat.</p>
+                      <div class="slider__buttons">
+                        <a href="./pages/zoos/panda/panda.html" class="button-light watch"><img src=" ./assets/icons/watchGreen.svg"
+                            alt="play" class="button-light__img">Watch online</a>
+                        <button class="button-light donate"><img src=" ./assets/icons/donate.svg" alt="play"
+                            class="button-light__img">Donate</button>
+                      </div>
+                    </div>
+                  </div>
+          </div>
+          <img src="./assets/icons/line.svg" alt="" class="animal-slider__line">
+          <div class="animal-slider__dots">
+            <label for="animal-slider-range" class="dots">
+              <div class="dots__current">02/<span class="dots__total">08</span></div>
+              <input type="range" class="dots__range" min="1" max="8" value="2" id="animal-slider-range">
+            </label>
+          </div>
+
+        </div>
+
+        <div class="social">
+          <ul class="social__wrapper">
+            <li class="social__link social__instagram"><a href="https://www.instagram.com/"
+                target="_blank"><img src="./assets/icons/instagram.svg" alt=""> </a></li>
+            <li class="social__link social__twitter"><a href="https://twitter.com/"  target="_blank"><img src="./assets/icons/twitter.svg" alt=""> </a>
+            </li>
+            <li class="social__link social__youtube"><a href="https://www.youtube.com/"
+                target="_blank"><img src="./assets/icons/youtube.svg" alt=""> </a></li>
+            <li class="social__link social__vk"><a href="https://vk.com/" target="_blank"><img src="./assets/icons/vk.svg" alt=""> </a></li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="how-it-works">
+      <div class="wrapper">
+        <h3 class="how-it-works__title">How it works?</h3>
+        <p class="how-it-works__text">As a voice for wildlife, we are devastated by the impact of the 2020 Australian
+          bushfires on precious species and their
+          habitat, and we are determined to assist in all aspects, including providing veterinary support and raising
+          much-needed
+          emergency funds. Zoo Online saves wildlife and inspires everyone to make conservation a priority in their
+          lives.
+          Animals
+          have the right to a pain-free and happy life. They have equal claim to the resources of this planet, and
+          deserve a
+          life
+          of dignity and compassion.As a voice for wildlife, we are devastated by the impact of the 2020 Australian
+          bushfires on
+          precious species and their habitat.</p>
+        <div class="how-it-works-slider slider">
+          <div class="slider__container">
+            <div class="slider__item"><img src="./assets/images/bushfires.jpg" alt="bushfires"
+                class="how-it-works__img">
+            </div>
+            <!-- <div class="slider__item"><img src="./assets/images/gorilla.jpg" alt="" class="how-it-works__img"></div>
+            <div class="slider__item"><img src="./assets/images/crocodile.jpg" alt="" class="how-it-works__img"></div>
+            <div class="slider__item"><img src="./assets/images/fox.jpg" alt="" class="how-it-works__img"></div> -->
+          </div>
+        </div>
+        <div class="dots-wrapper">
+          <label for="how-it-works-range" class="dots">
+            <div class="dots__current dark">01/<span class="dots__total">04</span></div>
+            <input type="range" class="dots__range dark bigCheck" min="1" max="4" value="1" id="how-it-works-range">
+          </label>
+        </div>
+        <div class="button-wrapper">
+          <button class="button">
+            <img src="./assets/icons/play.svg" alt="play" class="button__img">
+            Watch online
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <section class="our-inspiration">
+      <div class="wrapper about-us-cards">
+        <div class="about-us-card">
+          <img src="./assets/icons/problem-solving.svg" alt="" class="about-us-card__img">
+          <h3 class="about-us-card__title">What inspires us?</h3>
+          <p class="about-us-card__text">As a voice for wildlife, we are devastated by the impact of the 2020
+            Australian
+            bushfires on precious species and their
+            habitat, and we are determined to assist in all aspects.</p>
+        </div>
+        <div class="about-us-card">
+          <img src="./assets/icons/achievement.svg" alt="" class="about-us-card__img">
+          <h3 class="about-us-card__title">Our mission</h3>
+          <p class="about-us-card__text">Zoo Online saves wildlife and inspires everyone to make conservation a
+            priority in
+            their lives.</p>
+        </div>
+        <div class="about-us-card">
+          <img src="./assets/icons/love.svg" alt="" class="about-us-card__img">
+          <h3 class="about-us-card__title">What we believe in?</h3>
+          <p class="about-us-card__text">Animals have the right to a pain-free and happy life. They have equal claim
+            to the
+            resources of this planet, and deserve
+            a life of dignity and compassion.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="pets-in-zoo">
+      <div class="wrapper">
+        <h3 class="pets-in-zoo__title">Pets in Zoo</h3>
+        <div class="slider__container pets-in-zoo__slider">
+          <div class="prev">
+            <img src="./assets/icons/left-arrow.svg" alt="">
+          </div>
+          <div class="next">
+            <img src="./assets/icons/right-arrow.svg" alt="">
+          </div>
+          <div class="slider__item">
+            <img src="./assets/images/panda.jpg" alt="bushfires" class="pets-in-zoo__img">
+            <div class="slider__text pets-in-zoo__text">
+              <p>Panda’s name is Bei Bei. He is 2 years old. Bei Bei is from China. He loves bamboos.</p>
+              <div class="slider__buttons">
+                <a href="./pages/zoos/panda/panda.html" class="button-light watch"><img src=" ./assets/icons/watchGreen.svg" alt="play"
+                    class="button-light__img">Watch online</a>
+                <button class="button-light donate"><img src=" ./assets/icons/donate.svg" alt="play"
+                    class="button-light__img">Donate</button>
+              </div>
+            </div>
+          </div>
+          <div class="slider__item"><img src=" ./assets/images/eagle.jpg" alt="Eagle" class="pets-in-zoo__img">
+            <div class="slider__text pets-in-zoo__text">
+              <p>Eagle’s name is Grif. He is 5 years old. Eagle is from USA. He loves meat.</p>
+              <div class="slider__buttons">
+                <a href="./pages/zoos/eagle/eagle.html" class="button-light watch"><img src="./assets/icons/watchGreen.svg" alt="play"
+                    class="button-light__img">Watch online</a>
+                <button class="button-light donate"><img src=" ./assets/icons/donate.svg" alt="play"
+                    class="button-light__img">Donate</button>
+              </div>
+            </div>
+          </div>
+          <div class="slider__item">
+            <img src=" ./assets/images/gorilla.jpg" alt="" class="pets-in-zoo__img">
+            <div class="slider__text pets-in-zoo__text">
+              <p>Gorilla’s name is Maugli. He is 8 years old. Maugli is from Africa. He loves bananas.</p>
+              <div class="slider__buttons">
+                <a href="./pages/zoos/gorilla/gorilla.html" class="button-light watch"><img src="./assets/icons/watchGreen.svg"
+                    alt="play" class="button-light__img">Watch online</a>
+                <button class="button-light donate"><img src="./assets/icons/donate.svg" alt="play"
+                    class="button-light__img">Donate</button>
+              </div>
+            </div>
+          </div>
+          <div class="slider__item"><img src=" ./assets/images/crocodile.jpg" alt="" class="pets-in-zoo__img">
+            <div class="slider__text pets-in-zoo__text">
+              <p>Alligator’s name is Gena. He is 10 years old. Gena is from USA. He loves fish.</p>
+              <div class="slider__buttons">
+                <a href="./pages/zoos/alligator/alligator.html" class="button-light watch"><img src="./assets/icons/watchGreen.svg"
+                    alt="play" class="button-light__img">Watch online</a>
+                <button class="button-light donate"><img src="./assets/icons/donate.svg" alt="play"
+                    class="button-light__img">Donate</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="dots-wrapper">
+          <label for="pet-in-zoo-range" class="dots ">
+            <div class="dots__current dark">01/<span class="dots__total">08</span></div>
+            <input type="range" class="dots__range dark" min="1" max="8" value="1" id="pet-in-zoo-range">
+          </label>
+        </div>
+        <div class="button-wrapper">
+          <a href="./pages/map/map.html" class="button">
+            Choose your favourite
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <section class="pay-and-feed">
+      <div class="wrapper">
+        <h3 class="pay-and-feed__title">Pay and feed</h3>
+        <p class="pay-and-feed__text">The opportunity to easily and naturally (but as often as possible) donate to the
+          needs of
+          animals
+          that you like.</p>
+        <div class="steps-wrapper">
+          <div class="step">
+            <img src=" ./assets/icons/cards.svg" alt="" class="step__icon">
+            <p class="step__text">You pay with a VISA card</p>
+          </div>
+          <img src=" ./assets/icons/arrow.svg" alt="" class="step__arrow">
+          <div class="step">
+            <img src=" ./assets/icons/zoo.svg" alt="" class="step__icon">
+            <p class="step__text">Payment goes to the Zoo</p>
+          </div>
+          <img src=" ./assets/icons/arrow.svg" class="step__arrow" alt="">
+          <div class="step">
+            <img src=" ./assets/icons/panda.svg" alt="" class="step__icon">
+            <p class="step__text">Panda gets the bamboo</p>
+          </div>
+        </div>
+        <div class="button-wrapper">
+          <button class="button">Donate</button>
+        </div>
+      </div>
+    </section>
+
+    <section class="testimonials">
+      <div class="wrapper">
+        <h3 class="testimonials-title">Testimonials</h3>
+        <div class="slider__container feedback">
+          <div class="prev">
+            <img src=" ./assets/icons/left-arrow.svg" alt="">
+          </div>
+          <div class="next">
+            <img src=" ./assets/icons/right-arrow.svg" alt="">
+          </div>
+          <div class="slider__item feedback-card">
+            <div class="feedback-card__avatar">
+              <img src=" ./assets/users/user-default.svg" alt="user" class="feedback-card__img default">
+            </div>
+            <h4 class="feedback-card__user-name">Nastya Sidorova</h4>
+            <p class="feedback-card__text">As a voice for wildlife, we are devastated by the impact of the 2020
+              Australian bushfires on precious species and their habitat.</p>
+          </div>
+          <div class="slider__item feedback-card">
+            <div class="feedback-card__avatar">
+              <img src=" ./assets/users/vlad.jpg" alt="Vlad Kim" class="feedback-card__img">
+            </div>
+            <h4 class="feedback-card__user-name">Vlad Kim</h4>
+            <p class="feedback-card__text">As a voice for wildlife, we are devastated by the impact of the 2020
+              Australian
+              bushfires on precious species and their
+              habitat.</p>
+          </div>
+        </div>
+        <div class="dots-wrapper">
+          <label for="feedback-range" class="dots ">
+            <div class="dots__current dark">02/<span class="dots__total">08</span></div>
+            <input type="range" class="dots__range dark" min="1" max="8" value="2" id="feedback-range">
+          </label>
+        </div>
+        <div class="button-wrapper">
+          <button class="button">
+            Leave feedback
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <section class="map">
+      <div class="wrapper">
+        <h3 class="map-title">Map</h3>
+        <div class="map-wrapper">
+          <object type="image/svg+xml" data="./assets/images/map.svg" width="1198" height="497">
+            <img src="./assets/images/map.png" alt="Map">
+          </object>
+          <div class="map-markers">
+            <div class="gorilla">
+              <div class="marker">
+                <img src="./assets/images/small/gorilla.jpg" alt="Gorilla" class="marker__img">
+                <div class="marker__icon"></div>
+              </div>
+              <div class="map-card">
+                <img src="./assets/images/small/gorilla.jpg" alt="eagle" class="map-card__img">
+                <div class="map-card__about">
+                  <h4 class="map-card__title">West End Bald Eagle</h4>
+                  <p class="map-card__text"><span>Region:</span> on an island near Los Angeles</p>
+                  <p class="map-card__text"><span>Population:</span> more than 270 pairs in 2013</p>
+                </div>
+              </div>
+            </div>
+            <div class="eagle">
+              <div class="marker">
+                <img src="./assets/images/small/eagle.jpg" alt="Eagle" class="marker__img">
+                <div class="marker__icon"></div>
+              </div>
+              <div class="map-card">
+                <img src="./assets/images/small/eagle-card.jpg" alt="eagle" class="map-card__img">
+                <div class="map-card__about">
+                  <h4 class="map-card__title">West End Bald Eagle</h4>
+                  <p class="map-card__text"><span>Region:</span> on an island near Los Angeles</p>
+                  <p class="map-card__text"><span>Population:</span> more than 270 pairs in 2013</p>
+                </div>
+              </div>
+            </div>
+            <div class="panda">
+              <div class="marker">
+                <img src="./assets/images/small/panda.jpg" alt="Panda" class="marker__img">
+                <div class="marker__icon"></div>
+              </div>
+              <div class="map-card panda-card">
+                <img src="./assets/images/small/panda.jpg" alt="eagle" class="map-card__img">
+                <div class="map-card__about">
+                  <h4 class="map-card__title">West End Bald Eagle</h4>
+                  <p class="map-card__text"><span>Region:</span> on an island near Los Angeles</p>
+                  <p class="map-card__text"><span>Population:</span> more than 270 pairs in 2013</p>
+                </div>
+              </div>
+            </div>
+            <div class="crocodile">
+              <div class="marker">
+                <img src="./assets/images/small/crocodile.jpg" alt="Crocodile" class="marker__img">
+                <div class="marker__icon"></div>
+              </div>
+              <div class="map-card">
+                <img src="./assets/images/small/crocodile.jpg" alt="eagle" class="map-card__img">
+                <div class="map-card__about">
+                  <h4 class="map-card__title">West End Bald Eagle</h4>
+                  <p class="map-card__text"><span>Region:</span> on an island near Los Angeles</p>
+                  <p class="map-card__text"><span>Population:</span> more than 270 pairs in 2013</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="button-wrapper">
+          <a href="./pages/zoos/panda/panda.html" class="button"><img src="./assets/icons/play.svg" alt="play"
+              class="button__img">
+            watch online
+          </a>
+        </div>
+      </div>
+    </section>
+
+  </main>
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-nav">
+        <div class="logo footer-logo">
+          <a href="./index.html" class="footer-logo__link"><img src=" ./assets/icons/logo-light.svg" alt="ZOO online"
+              class="logo-img"></a>
+        </div>
+        <nav>
+          <ul class="nav light">
+            <li><a href="#" class="nav__item light">About</a></li>
+            <li><a href="./pages/zoos/panda/panda.html" class="nav__item light">Zoos</a></li>
+            <li><a href="./pages/map/map.html" class="nav__item light">Map</a></li>
+            <li><a href="https://www.figma.com/file/HKt5Nlx0jghQtJp6jW9q8F/zooApp" class="nav__item light"
+                target="_blank">Design</a></li>
+          </ul>
+        </nav>
+        <div class="button-wrapper ">
+          <button class="button button-footer">
+            donate for volunteers
+          </button>
+        </div>
+      </div>
+      <div class="footer-contacts">
+        <div class="contact">
+          <form class="contact-form">
+            <h3 class="contact-form__title" id="contact-us">Contact us</h3>
+            <div class="contact-form__info">
+              <input type="text" name="user-name" class="contact-form__field" placeholder="Name" required>
+              <input type="email" name="user-email" class="contact-form__field" placeholder="Email" required>
+              <div class="form-group">
+                <fieldset class="contact-form__fieldset">
+                  <legend class="contact-form__title-textarea">Please enter your message</legend>
+                  <textarea name="message" id="message-text" maxlength="280" class="contact-form__textarea" required></textarea>
+                </fieldset>
+                <div class="contact-form__checkbox-text"><input type="checkbox" name="agreement" id="agreement"
+                    class="contact-form__checkbox"><label for="agreement">I agree to the processing of Personal
+                    Data</label></div>
+
+                <button type="submit" class="contact-form__btn">Send<img src="assets/icons/arrow-btn.svg" alt=""
+                    class="contact-form__btn-img"></button>
+              </div>
+            </div>
+          </form>
+        </div>
+        <div class="requisites">
+          <h3 class="requisites__title">ZOO Online Centre</h3>
+          <address class="requisites__address">
+            <p>132, Address District, Street</p>
+            <p>Open Daily 10:00 am - 5:00 pm</p>
+          </address>
+          <address class="requisites__address">
+            <a href="tel:(702) 163-3433" class="requisites__link">T(702) 163-3433</a><br>
+            <a href="mailto:zoo.online@gmail.com" class="requisites__link">zoo.online@gmail.com</a>
+          </address>
+          <ul class="requisites__social">
+            <li class="social__link social__instagram"><a href="https://www.instagram.com/" target="_blank"><img
+                  src="./assets/icons/instagram.svg" alt=""></a></li>
+            <li class="social__link social__twitter"><a href="https://twitter.com/" target="_blank"><img
+                  src="./assets/icons/twitter.svg" alt=""></a>
+            </li>
+            <li class="social__link social__youtube"><a href="https://www.youtube.com/" target="_blank"><img
+                  src="./assets/icons/youtube.svg" alt=""></a></li>
+            <li class="social__link social__vk"><a href="https://vk.com/" target="_blank"><img src="./assets/icons/vk.svg"
+                  alt=""></a></li>
+          </ul>
+        </div>
+      </div>
+
+      <hr class="line">
+      <p class="copy">©Noora Sagnayeva</p>
+      <p class="copy">©RSSchool and ©Yem Digital - 2021</p>
+    </div>
+
+  </footer>
+
+</body>
+
+</html>

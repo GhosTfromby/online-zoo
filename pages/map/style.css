@@ -1,0 +1,55 @@
+.choose {
+  padding-top: 60px;
+  padding-bottom: 54px;
+}
+.choose-title {
+  margin-bottom: 20px;
+  font-weight: 900;
+  font-size: 48px;
+  line-height: 56px;
+  text-align: center;
+  color: #333333;
+}
+.choose-text {
+  width: 790px;
+  margin: 0 auto;
+  font-size: 14px;
+  line-height: 16px;
+  color: #4f4f4f;
+}
+.map {
+  background-color: #fff;
+  padding-top: 0;
+}
+.marker__icon:hover {
+  background-image: url(../../assets/icons/geolocation.svg);
+}
+.marker__icon_active:hover {
+  background-image: url(../../assets/icons/geolocation2.svg);
+}
+.marker__icon_active {
+  background-image: url(../../assets/icons/geolocation2.svg);
+}
+.slider__item {
+  position: relative;
+  background-color: #fff;
+}
+.map-zoo__img {
+  width: 137px;
+  height: 137px;
+  border-radius: 137px;
+}
+.map-zoo__item_active::after {
+  display: block;
+  right: -10px;
+  bottom: -10px;
+  width: 157px;
+  height: 157px;
+  position: absolute;
+  content: '';
+  background: url(../../assets/icons/ellipse.svg) no-repeat;
+}
+.map-slider {
+  padding-top: 54px;
+  padding-bottom: 80px;
+}
