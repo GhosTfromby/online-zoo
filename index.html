@@ -7,7 +7,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;900&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="./pages/landing/style.css">
+  <link rel="stylesheet" href="./style.css">
   <title>ZOO online</title>
 </head>
 
@@ -29,10 +29,16 @@
                 target="_blank">Design</a></li>
           </ul>
         </nav>
-        <label class="switch">
-          <input type="checkbox" class="switch__checkbox">
-          <span class="switch__toggle"></span>
-        </label>
+        <div class="header-btn">
+          <label class="switch">
+            <input type="checkbox" class="switch__checkbox">
+            <span class="switch__toggle"></span>
+          </label>
+          <button class="burger">
+            <img src="./assets/icons/menu.svg" alt="menu">
+          </button>
+        </div>
+
       </div>
 
     </div>
@@ -57,14 +63,13 @@
               <div class="slider__text">
                 <p>Eagle’s name is Grif. He is 5 years old. Eagle is from USA. He loves meat.</p>
                 <div class="slider__buttons">
-                  <a href="./pages/zoos/panda/eagle.html" class="button-light watch"><img src=" ./assets/icons/watchGreen.svg"
-                      alt="play" class="button-light__img">Watch online</a>
+                  <a href="./pages/zoos/panda/eagle.html" class="button-light watch"><img src=" ./assets/icons/watchGreen.svg" alt="play"
+                      class="button-light__img">Watch online</a>
                   <button class="button-light donate"><img src=" ./assets/icons/donate.svg" alt="play"
                       class="button-light__img">Donate</button>
                 </div>
               </div>
             </div>
-
             <div class="slider__item slider__item_active">
               <img src="./assets/images/panda.jpg" alt="Panda" class="slider__img">
               <div class="slider__text animal-slider__active">
@@ -75,52 +80,51 @@
                       class="button-light__img">Watch online</a>
                   <button class="button-light donate"><img src=" ./assets/icons/donate.svg" alt="play"
                       class="button-light__img">Donate</button>
-                  </div>
-                  </div>
-                  </div>
-                  <div class="slider__item">
-                    <img src="./assets/images/gorilla.jpg" alt="" class="slider__img">
-                    <div class="slider__text">
-                      <p>Gorilla’s name is Maugli. He is 8 years old. Maugli is from Africa. He loves bananas.</p>
-                      <div class="slider__buttons">
-                        <a href="./pages/zoos/gorilla/gorilla.html" class="button-light watch"><img src=" ./assets/icons/watchGreen.svg"
-                            alt="play" class="button-light__img">Watch online</a>
-                        <button class="button-light donate"><img src=" ./assets/icons/donate.svg" alt="play"
-                            class="button-light__img">Donate</button>
-                      </div>
-                    </div>
-                  </div>
-                  
-                  <div class="slider__item">
-                    <img src="./assets/images/crocodile.jpg" alt="" class="slider__img">
-                    <div class="slider__text">
-                      <p>Alligator’s name is Gena. He is 10 years old. Gena is from USA. He loves fish.</p>
-                      <div class="slider__buttons">
-                        <a href="./pages/zoos/alligator/alligator.html" class="button-light watch"><img
-                            src=" ./assets/icons/watchGreen.svg" alt="play" class="button-light__img">Watch online</a>
-                        <button class="button-light donate"><img src=" ./assets/icons/donate.svg" alt="play"
-                            class="button-light__img">Donate</button>
-                      </div>
-                    </div>
-                  </div>
-                  
-                  <div class="slider__item">
-                    <img src="./assets/images/fox.jpg" alt="" class="slider__img">
-                    <div class="slider__text">
-                      <p>Fox’s name is Alisa. He is 2 years old. Alisa is from Belarus. He loves meat.</p>
-                      <div class="slider__buttons">
-                        <a href="./pages/zoos/panda/panda.html" class="button-light watch"><img src=" ./assets/icons/watchGreen.svg"
-                            alt="play" class="button-light__img">Watch online</a>
-                        <button class="button-light donate"><img src=" ./assets/icons/donate.svg" alt="play"
-                            class="button-light__img">Donate</button>
-                      </div>
-                    </div>
-                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="slider__item">
+              <img src="./assets/images/gorilla.jpg" alt="" class="slider__img">
+              <div class="slider__text">
+                <p>Gorilla’s name is Maugli. He is 8 years old. Maugli is from Africa. He loves bananas.</p>
+                <div class="slider__buttons">
+                  <a href="./pages/zoos/gorilla/gorilla.html" class="button-light watch"><img src=" ./assets/icons/watchGreen.svg"
+                      alt="play" class="button-light__img">Watch online</a>
+                  <button class="button-light donate"><img src=" ./assets/icons/donate.svg" alt="play"
+                      class="button-light__img">Donate</button>
+                </div>
+              </div>
+            </div>
+            <div class="slider__item">
+              <img src="./assets/images/crocodile.jpg" alt="" class="slider__img">
+              <div class="slider__text">
+                <p>Alligator’s name is Gena. He is 10 years old. Gena is from USA. He loves fish.</p>
+                <div class="slider__buttons">
+                  <a href="./pages/zoos/alligator/alligator.html" class="button-light watch"><img
+                      src=" ./assets/icons/watchGreen.svg" alt="play" class="button-light__img">Watch online</a>
+                  <button class="button-light donate"><img src=" ./assets/icons/donate.svg" alt="play"
+                      class="button-light__img">Donate</button>
+                </div>
+              </div>
+            </div>
+            <div class="slider__item">
+              <img src="./assets/images/fox.jpg" alt="" class="slider__img">
+              <div class="slider__text">
+                <p>Fox’s name is Alisa. He is 2 years old. Alisa is from Belarus. He loves meat.</p>
+                <div class="slider__buttons">
+                  <a href="./pages/zoos/panda/panda.html" class="button-light watch"><img src=" ./assets/icons/watchGreen.svg" alt="play"
+                      class="button-light__img">Watch online</a>
+                  <button class="button-light donate"><img src=" ./assets/icons/donate.svg" alt="play"
+                      class="button-light__img">Donate</button>
+                </div>
+              </div>
+            </div>
           </div>
+
           <img src="./assets/icons/line.svg" alt="" class="animal-slider__line">
           <div class="animal-slider__dots">
             <label for="animal-slider-range" class="dots">
-              <div class="dots__current">02/<span class="dots__total">08</span></div>
+              <p class="dots__current">02/<span class="dots__total">08</span></p>
               <input type="range" class="dots__range" min="1" max="8" value="2" id="animal-slider-range">
             </label>
           </div>
@@ -129,13 +133,15 @@
 
         <div class="social">
           <ul class="social__wrapper">
-            <li class="social__link social__instagram"><a href="https://www.instagram.com/"
-                target="_blank"><img src="./assets/icons/instagram.svg" alt=""> </a></li>
-            <li class="social__link social__twitter"><a href="https://twitter.com/"  target="_blank"><img src="./assets/icons/twitter.svg" alt=""> </a>
+            <li class="social__link social__instagram"><a href="https://www.instagram.com/" target="_blank"><img
+                  src="./assets/icons/instagram.svg" alt=""> </a></li>
+            <li class="social__link social__twitter"><a href="https://twitter.com/" target="_blank"><img
+                  src="./assets/icons/twitter.svg" alt=""> </a>
             </li>
-            <li class="social__link social__youtube"><a href="https://www.youtube.com/"
-                target="_blank"><img src="./assets/icons/youtube.svg" alt=""> </a></li>
-            <li class="social__link social__vk"><a href="https://vk.com/" target="_blank"><img src="./assets/icons/vk.svg" alt=""> </a></li>
+            <li class="social__link social__youtube"><a href="https://www.youtube.com/" target="_blank"><img
+                  src="./assets/icons/youtube.svg" alt=""> </a></li>
+            <li class="social__link social__vk"><a href="https://vk.com/" target="_blank"><img src="./assets/icons/vk.svg" alt="">
+              </a></li>
           </ul>
         </div>
       </div>
@@ -169,7 +175,7 @@
         </div>
         <div class="dots-wrapper">
           <label for="how-it-works-range" class="dots">
-            <div class="dots__current dark">01/<span class="dots__total">04</span></div>
+            <p class="dots__current dark">01/<span class="dots__total">04</span></p>
             <input type="range" class="dots__range dark bigCheck" min="1" max="4" value="1" id="how-it-works-range">
           </label>
         </div>
@@ -269,7 +275,7 @@
         </div>
         <div class="dots-wrapper">
           <label for="pet-in-zoo-range" class="dots ">
-            <div class="dots__current dark">01/<span class="dots__total">08</span></div>
+            <p class="dots__current dark">01/<span class="dots__total">08</span></p>
             <input type="range" class="dots__range dark" min="1" max="8" value="1" id="pet-in-zoo-range">
           </label>
         </div>
@@ -341,7 +347,7 @@
         </div>
         <div class="dots-wrapper">
           <label for="feedback-range" class="dots ">
-            <div class="dots__current dark">02/<span class="dots__total">08</span></div>
+            <p class="dots__current dark">02/<span class="dots__total">08</span></p>
             <input type="range" class="dots__range dark" min="1" max="8" value="2" id="feedback-range">
           </label>
         </div>
@@ -357,8 +363,8 @@
       <div class="wrapper">
         <h3 class="map-title">Map</h3>
         <div class="map-wrapper">
-          <object type="image/svg+xml" data="./assets/images/map.svg" width="1198" height="497">
-            <img src="./assets/images/map.png" alt="Map">
+          <object type="image/svg+xml" data="./assets/images/map.svg" class="map-container">
+            <img src="./assets/images/map.svg" alt="Map" class="map-img">
           </object>
           <div class="map-markers">
             <div class="gorilla">
@@ -430,71 +436,80 @@
     </section>
 
   </main>
+
   <footer class="footer">
     <div class="container">
-      <div class="footer-nav">
-        <div class="logo footer-logo">
-          <a href="./index.html" class="footer-logo__link"><img src=" ./assets/icons/logo-light.svg" alt="ZOO online"
-              class="logo-img"></a>
-        </div>
-        <nav>
-          <ul class="nav light">
-            <li><a href="#" class="nav__item light">About</a></li>
-            <li><a href="./pages/zoos/panda/panda.html" class="nav__item light">Zoos</a></li>
-            <li><a href="./pages/map/map.html" class="nav__item light">Map</a></li>
-            <li><a href="https://www.figma.com/file/HKt5Nlx0jghQtJp6jW9q8F/zooApp" class="nav__item light"
-                target="_blank">Design</a></li>
-          </ul>
-        </nav>
-        <div class="button-wrapper ">
-          <button class="button button-footer">
-            donate for volunteers
-          </button>
-        </div>
-      </div>
-      <div class="footer-contacts">
-        <div class="contact">
-          <form class="contact-form">
-            <h3 class="contact-form__title" id="contact-us">Contact us</h3>
-            <div class="contact-form__info">
-              <input type="text" name="user-name" class="contact-form__field" placeholder="Name" required>
-              <input type="email" name="user-email" class="contact-form__field" placeholder="Email" required>
-              <div class="form-group">
-                <fieldset class="contact-form__fieldset">
-                  <legend class="contact-form__title-textarea">Please enter your message</legend>
-                  <textarea name="message" id="message-text" maxlength="280" class="contact-form__textarea" required></textarea>
-                </fieldset>
-                <div class="contact-form__checkbox-text"><input type="checkbox" name="agreement" id="agreement"
-                    class="contact-form__checkbox"><label for="agreement">I agree to the processing of Personal
-                    Data</label></div>
+      <div class="footer-wrapper">
+        <div class="footer-contact-us-logo">
+          <div class="logo footer-logo">
+            <a href="./index.html" class="footer-logo__link"><img src=" ./assets/icons/logo-light.svg" alt="ZOO online"
+                class="logo-img"></a>
+          </div>
+          <div class="contact">
+            <form class="contact-form">
+              <h3 class="contact-form__title" id="contact-us">Contact us</h3>
+              <div class="contact-form__info">
+                <input type="text" name="user-name" class="contact-form__field" placeholder="Name" required>
+                <input type="email" name="user-email" class="contact-form__field" placeholder="Email" required>
+                <div class="form-group">
+                  <fieldset class="contact-form__fieldset">
+                    <legend class="contact-form__title-textarea">Please enter your message</legend>
+                    <textarea name="message" id="message-text" maxlength="280" class="contact-form__textarea" required></textarea>
+                  </fieldset>
+                  <div class="contact-form__checkbox-text"><input type="checkbox" name="agreement" id="agreement"
+                      class="contact-form__checkbox" required><label for="agreement">I agree to the processing of
+                      Personal
+                      Data</label></div>
 
-                <button type="submit" class="contact-form__btn">Send<img src="assets/icons/arrow-btn.svg" alt=""
-                    class="contact-form__btn-img"></button>
+                  <button type="submit" class="contact-form__btn">Send<img src="assets/icons/arrow-btn.svg" alt=""
+                      class="contact-form__btn-img"></button>
+                </div>
               </div>
-            </div>
-          </form>
+            </form>
+          </div>
         </div>
-        <div class="requisites">
-          <h3 class="requisites__title">ZOO Online Centre</h3>
-          <address class="requisites__address">
-            <p>132, Address District, Street</p>
-            <p>Open Daily 10:00 am - 5:00 pm</p>
-          </address>
-          <address class="requisites__address">
-            <a href="tel:(702) 163-3433" class="requisites__link">T(702) 163-3433</a><br>
-            <a href="mailto:zoo.online@gmail.com" class="requisites__link">zoo.online@gmail.com</a>
-          </address>
-          <ul class="requisites__social">
-            <li class="social__link social__instagram"><a href="https://www.instagram.com/" target="_blank"><img
-                  src="./assets/icons/instagram.svg" alt=""></a></li>
-            <li class="social__link social__twitter"><a href="https://twitter.com/" target="_blank"><img
-                  src="./assets/icons/twitter.svg" alt=""></a>
-            </li>
-            <li class="social__link social__youtube"><a href="https://www.youtube.com/" target="_blank"><img
-                  src="./assets/icons/youtube.svg" alt=""></a></li>
-            <li class="social__link social__vk"><a href="https://vk.com/" target="_blank"><img src="./assets/icons/vk.svg"
-                  alt=""></a></li>
-          </ul>
+
+        <div class="footer-nav-requisites">
+          <div class="nav-requisites-wrapper">
+            <nav>
+              <ul class="nav light">
+                <li><a href="#" class="nav__item light">About</a></li>
+                <li><a href="./pages/zoos/panda/panda.html" class="nav__item light">Zoos</a></li>
+                <li><a href="./pages/map/map.html" class="nav__item light">Map</a></li>
+                <li><a href="https://www.figma.com/file/HKt5Nlx0jghQtJp6jW9q8F/zooApp" class="nav__item light"
+                    target="_blank">Design</a></li>
+              </ul>
+            </nav>
+            <div class="requisites">
+              <h3 class="requisites__title">ZOO Online Centre</h3>
+              <address class="requisites__address">
+                <p>132, Address District, Street</p>
+                <p>Open Daily 10:00 am - 5:00 pm</p>
+              </address>
+              <address class="requisites__address">
+                <a href="tel:(702)163-3433" class="requisites__link">T(702) 163-3433</a><br>
+                <a href="mailto:zoo.online@gmail.com" class="requisites__link">zoo.online@gmail.com</a>
+              </address>
+              <ul class="requisites__social">
+                <li class="social__link social__instagram"><a href="https://www.instagram.com/" target="_blank"><img
+                      src="./assets/icons/instagram.svg" alt=""></a></li>
+                <li class="social__link social__twitter"><a href="https://twitter.com/" target="_blank"><img
+                      src="./assets/icons/twitter.svg" alt=""></a>
+                </li>
+                <li class="social__link social__youtube"><a href="https://www.youtube.com/" target="_blank"><img
+                      src="./assets/icons/youtube.svg" alt=""></a></li>
+                <li class="social__link social__vk"><a href="https://vk.com/" target="_blank"><img src="./assets/icons/vk.svg"
+                      alt=""></a></li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="button-wrapper ">
+            <button class="button button-footer">
+              donate for volunteers
+            </button>
+          </div>
+
         </div>
       </div>
 
