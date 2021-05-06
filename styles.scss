@@ -1,0 +1,22 @@
+// ======= GLOBAL =======
+@import "scss/normalize";
+@import "scss/reset";
+
+@import "scss/constants";
+@import "scss/lib/base";
+@import "scss/global";
+@import "scss/layout";
+// @import 'controls';
+
+// ======= COMPONENTS =======
+@import "scss/components/header";
+@import "scss/components/social";
+@import "scss/components/sliders";
+@import "scss/components/footer";
+
+// ======= PAGES =======
+@import "scss/pages/index-page";
+
+// ======= BLOCKS =======
+@import "scss/block/map";
+@import "scss/block/favorite-map";
